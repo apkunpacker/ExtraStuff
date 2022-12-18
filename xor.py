@@ -1,6 +1,6 @@
 import os
 
-with open("input.jpg", "rb") as file:
+with open("input.bin", "rb") as file:
     data = file.read()
 
 for key in range(256):
